@@ -1,10 +1,10 @@
 import {
-  Column,
-  CreateDateColumn,
-  Entity,
-  ManyToMany,
-  PrimaryGeneratedColumn,
-  UpdateDateColumn,
+  PrimaryGeneratedColumn, 
+  Column, 
+  ManyToMany, 
+  CreateDateColumn, 
+  UpdateDateColumn, 
+  Entity
 } from 'typeorm';
 
 import { User } from '../../users/entities/User';
